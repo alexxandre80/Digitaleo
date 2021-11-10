@@ -19,11 +19,11 @@ Please check the API documentation : <a href="https://www.digitaleo.fr/wp-conten
 
 Init Digitaleo Class<br>
 
-```
+```php
 include 'Digitaleo-api-php/v2/Digitaleo.php';
 ```
 Add your client credentials
-```
+```php
 $httpClient  = new Digitaleo();
 $httpClient->setOauthClientCredentials(
         'https://oauth.messengeo.net/token',
@@ -31,6 +31,6 @@ $httpClient->setOauthClientCredentials(
         '<Your_clientSecret>');
 ```
 Generate a token for the bearer authorization
-```
+```php
 $callGetToken = $httpClient->callGetToken();
 ```
