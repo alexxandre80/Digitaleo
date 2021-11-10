@@ -1,5 +1,8 @@
 ## General info
 Hello this a extremly simple code for use Digitaleo in your development
+```
+$ git clone https://github.com/alexxandre80/Digitaleo.git
+```
 
 ## Setup
 
